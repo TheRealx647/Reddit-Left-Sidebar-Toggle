@@ -5,6 +5,8 @@
 // @description  Toggle the left sidebar on Reddit [ON|OFF] / persistent state
 // @author       u/x647
 // @match        *://www.reddit.com/*
+// @exclude      *://old.reddit.com/*
+// @exclude      *://new.reddit.com/*
 // @exclude      *://www.reddit.com/mod/*
 // @exclude      *://i.reddit.com/*
 // @exclude      *://www.reddit.com/mod/*

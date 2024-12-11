@@ -3,24 +3,22 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3.0
 // @description  Toggle the left sidebar on Reddit [ON|OFF] / persistent state
-// @author       u/x647
+// @author       /u/x647
 // @match        *://www.reddit.com/*
+// @match        *://sh.reddit.com/*
 // @exclude      *://old.reddit.com/*
 // @exclude      *://new.reddit.com/*
-// @exclude      *://www.reddit.com/mod/*
 // @exclude      *://i.reddit.com/*
 // @exclude      *://www.reddit.com/mod/*
-// @exclude      *://www.reddit.com/user/*/about/*
+// @exclude      *://sh.reddit.com/mod/*
 // @exclude      *://www.reddit.com/prefs/*
-// @exclude      *://www.reddit.com/policies/*
 // @exclude      *://www.reddit.com/account-activity
 // @exclude      *://www.reddit.com/live/*
 // @exclude      *://www.reddit.com/dev/*.
-// @exclude      *://www.reddit.com/user/*/achievements/*
-// @exclude      *://www.reddit.com/chat/*
-// @exclude      *://www.reddit.com/media?url=*
+// @exclude      *://www|sh.reddit.com/media?url=*
 // @icon         https://static.thenounproject.com/png/3095005-200.png
 // @grant        GM_addStyle
+// ==/UserScript==
 
 
 // ==/UserScript==

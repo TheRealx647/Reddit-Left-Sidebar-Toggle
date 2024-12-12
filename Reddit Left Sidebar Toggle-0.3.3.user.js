@@ -100,8 +100,8 @@
         /* Override styles for content expansion */
         .expanded-content {
             margin-left: 0 !important;
-            max-width: 1200px !important;
-            width: calc(1200px + 800px) !important; /* Adjust expansion */
+            max-width: calc(100% + 0px)!important;
+            width: calc(1120px + 150px) !important; /* Adjust expansion */
             transition: width 0.2s ease-in-out, margin-left 0.2s ease-in-out;
         }
     `);
